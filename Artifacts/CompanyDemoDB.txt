@@ -1,0 +1,66 @@
+
+
+create table companydetails(companyID VARCHAR(20), companyName VARCHAR(10), RevenueMatrix VARCHAR(10), RevenueMatrixPrev VARCHAR(10), FnR VARCHAR(10), FnRPrev VARCHAR(10), Legal VARCHAR(10), LegalPrev VARCHAR(10), TRTA VARCHAR(10), TRTAPrev VARCHAR(10), companysite VARCHAR(50), companydesc VARCHAR(300));
+
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('100', 'Airbnb', '49552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'www.Airbnb.com','Airbnb is a peer-to-peer online marketplace and homestay network enabling people to list or rent short-term lodging in residential properties, with the cost of such accommodation set by the property owner.');
+
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('101', 'Alexa', '50552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'www.alexa.com','Alexa Internet, Inc. is a California-based company that provides commercial web traffic data and analytics. It is a wholly owned subsidiary of Amazon.com. Founded as an independent company in 1996, Alexa was acquired by Amazon in 1999.');
+
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('102', 'Belkin', '60552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'www.belkin.com','Belkin International, Inc., is an American manufacturer of consumer electronics that specializes in connectivity devices. Headquartered in Playa Vista, Los Angeles, California, it sells various consumer and commercial product lines, including routers, iPod and iPhone accessories etc.');
+
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('103', 'BQool', '55552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'www.bqool.com','Best Amazon Seller Software- Get fast repricing and win buy box, increase positive feedback and manage product reviews easily.');
+
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('104', 'Canary', '70552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'https://canary.is','Canary is a complete security system in a single device. Includes a 1080p HD camera, night vision, motion-activated recording, air quality sensors, and more.');
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('105', 'Channel4', '80552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'www.channel4.com','Channel 4 is a British public-service television broadcaster that began transmission on 2 November 1982. Although largely commercially self-funded, it is ultimately publicly owned; originally a subsidiary of the Independent Broadcasting Authority.');
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('106', 'Dato', '44552104', '35752104', '30552104', '552104', '352104', '22104', '12104', '12104', 'unknown','Dato is a startup focused on creating a platform for people to build intelligent applications that use machine learning as their core technology.');
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('107', 'Decisyon', '50552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'www.decisyon.com','Decisyon develops a wide array of platforms that help customers unify business and operational applications for better decision making.');
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('108', 'Eliza', '49552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'www.elizacorporation.com','Eliza is one of the leaders and pioneers in health engagement management solutions.');
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('109', 'Essent', '60552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'https://www.essent.eu','Essent NV, based in s-Hertogenbosch, the Netherlands, is an energy company. It is a public limited liability corporation. Essent is the largest energy company in the Netherlands.');
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('110', 'Flypay', '55552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'www.flypay.co.uk','Flypay is a mobile application and payment technology company based in London.');
+
+insert into companydetails (companyID,companyName,RevenueMatrix,RevenueMatrixPrev,FnR,FnRPrev,Legal,LegalPrev,TRTA,TRTAPrev,companysite,companydesc) values ('111', 'Kaplan', '70552104', '45752104', '43552104', '552104', '352104', '22104', '12104', '12104', 'kaplan.com','Kaplan is a global provider of educational services for individuals, schools, and businesses.');
+
+
+====================================================================
+
+
+
+create table Company (companyID VARCHAR(20), companyName VARCHAR(50), BusinessSector VARCHAR(50), RevenueRank VARCHAR(50));
+
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('100','Airbnb', 'Travel', '#6');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('101','Alexa', 'Internet information providers', '#5');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('102','Belkin', 'Consumer Electronics', '#2');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('103','BQool', 'E-commerce', '#3');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('104','Canary', 'Security systems', '#6');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('105','Channel4', 'Television ', '#4');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('106','Dato', 'Technology', '#10');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('107','Decisyon', 'Technology', '#11');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('108','Eliza', 'Health ', '#9');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('109','Essent', 'Energy', '#1');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('110','Flypay', 'Technology', '#7');
+
+insert into Company (companyID,companyName,BusinessSector,RevenueRank) values ('111','Kaplan', 'Education', '#8');
+
+
