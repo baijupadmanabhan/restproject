@@ -1,0 +1,15 @@
+com\Jericho\spring\rest\dao\CompanyDao$2$1.class
+com\Jericho\spring\rest\dao\CompanyDao.class
+com\Jericho\spring\rest\model\Company.class
+com\Jericho\spring\rest\model\Revenue.class
+com\Jericho\spring\rest\model\TopProducts.class
+com\Jericho\spring\rest\config\AppConfig.class
+com\Jericho\spring\rest\config\AppInitializer.class
+com\Jericho\spring\rest\controller\CompanyResource.class
+com\Jericho\spring\rest\model\CompanyList.class
+com\Jericho\spring\rest\dao\CompanyDao$2.class
+com\Jericho\spring\rest\dao\CompanyDao$2$3.class
+com\Jericho\spring\rest\model\CompanyDetail.class
+com\Jericho\spring\rest\dao\CompanyDao$1.class
+com\Jericho\spring\rest\dao\CompanyDao$2$2.class
+com\Jericho\spring\rest\model\ProductRecomendations.class
