@@ -50,7 +50,7 @@ public class JerichoTest {
 
         List<Company> company = Arrays.asList(
                 new Company("ECM42006", "Belkin"),
-                new Company("ECM42001", "Ameriprise Financial Inc"));
+                new Company("ECM42001", "Ameriprise"));
        // when(companyController.getCompanyList()).thenReturn(users);
         mockMvc.perform(get("/companylist"))
                 .andExpect(status().isOk())
