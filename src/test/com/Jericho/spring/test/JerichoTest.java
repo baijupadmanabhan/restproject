@@ -52,7 +52,7 @@ public class JerichoTest {
                 new Company("ECM42006", "Belkin"),
                 new Company("ECM42001", "Ameriprise Financial Inc"));
        // when(companyController.getCompanyList()).thenReturn(users);
-        mockMvc.perform(get("/rest/service/companylist"))
+        mockMvc.perform(get("/companylist"))
                 .andExpect(status().isOk())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
                 .andExpect(jsonPath("$", hasSize(2)))
@@ -68,7 +68,7 @@ public class JerichoTest {
     public void test_get_by_id_success() throws Exception {
     	Company company = new Company("ECM42006", "Belkin");
         //when(companyController.getCompanyDetails("4295899980")).thenReturn(company);
-        mockMvc.perform(get("/rest/service/company/{id}", "4295899980"))
+        mockMvc.perform(get("/company/{id}", "4295899980"))
                 .andExpect(status().isOk())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
                 .andExpect(jsonPath("$.id", is("ECM42006")))
